@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #001f3f, #005f99); /* Dark navy-blue gradient */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .shop-name {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .shop-name:hover {
+    color: #b3d1ff;
+    transform: scale(1.1);
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .cart :nth-child(1) {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cart :nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(218, 33, 33);
+    position: relative;
+    top: -10px;
+  }
+  

@@ -1,0 +1,45 @@
+.warning {
+    height: 40px;
+    background: linear-gradient(135deg, #ff5f6d, #d10024); /* Red gradient */
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 250px;
+    font-family: 'Quicksand', sans-serif; /* Switch to Quicksand for consistency */
+    color: #fff; /* Keep the text color white for better readability */
+    padding: 10px; /* Increase padding for a cleaner look */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow for depth */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px; /* Adds spacing between letters for better legibility */
+    z-index: 1000; /* Ensure the warning stays on top of other content */
+    animation: fadeInOut 5s ease-in-out; /* Optional: a fade in-out effect */
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+body{
+    background-color:  #9fc0f1;
+}
+body, html {
+    height: 100%; /* Ensure the body and html take the full height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the app takes the full viewport height */
+  }
+  
+  .footer {
+    margin-top: auto; /* Push footer to the bottom */
+  }
+  

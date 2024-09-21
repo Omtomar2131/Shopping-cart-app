@@ -1,0 +1,58 @@
+.cart-box {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* Soft Aqua Gradient */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding for spacing */
+    margin: 15px 0; /* Margin for spacing between items */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effects */
+}
+
+.cart-box:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.cart-img {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    margin-right: 15px; /* Spacing between image and text */
+}
+
+.cart-img img {
+    width: 80px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.cart-details {
+    flex-grow: 1; /* Allow details to grow and fill space */
+    text-align: left; /* Left align text */
+}
+
+.cart-details p {
+    margin: 5px 0; /* Spacing between text elements */
+    color: #333; /* Dark text color for readability */
+}
+
+.cart-details button {
+    background-color: #FF5733; /* Accent color for buttons */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 8px 12px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+    margin-right: 5px; /* Spacing between buttons */
+}
+
+.cart-details button:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+
+.cart-total {
+    font-weight: bold; /* Bold for emphasis */
+    font-size: 1.2em; /* Larger text size */
+    margin-top: 20px; /* Spacing above total price */
+    color: #333; /* Dark text color */
+}
